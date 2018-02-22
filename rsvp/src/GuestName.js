@@ -9,11 +9,11 @@ const GuestName = (props) => {
       <input type="text" value={props.children}
       onChange={props.handleNameEdits} />
     );
-  } else {
+  }
     return (
       <span>{props.children}</span>
     );
-  };
+
 }
 
 GuestName.propTypes = {
